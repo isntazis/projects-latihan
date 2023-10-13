@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Latihan List</title>
+    <style>
+      body {
+        background-color: tomato;
+        color: #333;
+      }
+      ul {
+        list-style-image: url("/src/img/menu.svg");
+      }
+      ul li {
+        border: 2px solid #f4f4f4;
+        border-radius: 5px;
+      }
+      ul li a {
+        text-decoration: line-through;
+        color: #f4f4f4;
+      }
+      ul li a:hover {
+        color: #ddd;
+        text-decoration: blink;
+      }
+      ol {
+        list-style-image: url("/src/img/coffee.svg");
+      }
+      ol li {
+        border: 2px dotted pink;
+        border-radius: 5px;
+      }
+      ol li a {
+        text-decoration: none;
+        color: lightskyblue;
+      }
+      ol li a:hover {
+        color: lightblue;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Menu makanan dan minuman</h1>
+    <h2>Mau makan apa?</h2>
+    <ul>
+      <li><a href="">Nasi goreng</a></li>
+      <li><a href="#">Nasi uduk</a></li>
+      <li><a href="#">Bubur ayam</a></li>
+    </ul>
+    <h3>Mau minum apa?</h3>
+    <ol>
+      <li><a href="#">Air putih</a></li>
+      <li><a href="#">Kopi</a></li>
+      <li><a href="#">Teh</a></li>
+    </ol>
+  </body>
+</html>

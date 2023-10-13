@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gogoblesan JS</title>
+  <style type="text/css" media="all">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #container {
+      text-align: center;
+      margin: 2rem auto;
+    }
+    button {
+      border: none;
+      border-radius: 0.4rem;
+      margin: 0.7rem 0;
+      padding: 0.2rem 0.5rem;
+      background-color: darkblue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <p id="myText"></p>
+  <label id="uLabel">username:</label></br>
+  <input type="text" id="myUsername"></br>
+  <label id="pLabel" >password:</label></br>
+  <input type="password" id="myPassword"></br>
+  <button type="button" id="loginBtn" onclick="onLogin()">Login</button>
+  <button type="button" id="logoutBtn" onclick="onLogout()">Logout</button>
+  
+  </div>
+  <!-- my js -->
+  <script src="index.js" type="text/javascript" charset="utf-8"></script>
+  <!-- my js end -->
+</body>
+</html>

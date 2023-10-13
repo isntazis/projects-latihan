@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AKU MSIH PEMULAH</title>
+  </head>
+  <style>
+    body {
+      background-color: grey;
+    }
+    .container {
+      margin: 0 auto;
+    }
+    .form {
+      padding: 1rem;
+    }
+    .textbox {
+      color: #333;
+      background-color: royalblue;
+      color: #f4f4f4;
+      border: none;
+      border-radius: 8px;
+      padding: 4px;
+      transition: all 0.3s ease-in;
+      cursor: pointer;
+    }
+    .textbox:focus {
+      outline: 2px solid blue;
+      transition: all 0.3s ease-out;
+    }
+    label {
+      cursor: pointer;
+      color: #f4f4f4;
+    }
+  </style>
+  <body>
+    <div class="container">
+    <form class="form" action="info.html" method="get">
+      <label for="username">Masukan nama anda:</label></br>
+      <input type="text" name="username" class="textbox"></br>
+      <label for="email">Masukan email anda:</label></br>
+      <input type="email" class="textbox" name="email"></br>
+      <label for="age">Masukan usia anda:</label></br>
+      <input type="number" name="age" class="textbox"></br></br>
+      <label>Pilih jenis kelamin anda:</label></br>
+      <label for="gender">Laki-laki</label>
+      <input type="radio" name="gender">
+      <label for="gender">Perempuan</label>
+      <input type="radio" name="gender"></br></br>
+      <label for="hobby">Pilih hobi anda:</label></br>
+      <label for="hobby">Volly</label>
+      <input type="checkbox" name="hobby">
+      <label for="hobby">Futsal</label>
+      <input type="checkbox" name="hobby">
+      <label for="hobby">Basket</label>
+      <input type="checkbox" name="hobby"></br></br></br>
+      <label for="select">Pilih kota anda:</label></br>
+      <select name="select">
+        <option value="1">Jakarta</option>
+        <option value="2">Tangerang</option>
+        <option value="3">Bandung</option>
+      </select></br></br>
+      <label for="message">Masukan pesan:</label></br>
+      <textarea name="message" rows="8" cols="30" wrap="soft"></textarea></br></br>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
